@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Learn DSA for Free from Coder Army</h1>
+      <ol style="background-color: aliceblue">
+        <li><a href="#1st">c++ Introduction</a></li>
+        <li><a href="#second">c++ compiler</a></li>
+        <li><a href="#2nd">Arrays</a></li>
+        <li><a href="#3rd">Tress</a></li>
+        <li><a href="#4th">Graphs</a></li>
+        <li><a href="#5th">Pls fill Form</a></li>
+      </ol>
+    </header>
+    <main>
+      <!-- c++ intro -->
+      <section id="1st">
+        <h1>Introduction to c++</h1>
+        <p>
+          C++ is a powerful, high-performance programming language widely used
+          for system/software development, game development, and applications
+          requiring close hardware interaction. It is an extension of the C
+          language, adding object-oriented features such as classes and
+          inheritance.
+        </p>
+        <h2>features of c++</h2>
+        <ol>
+          <li>Object-Oriented Programming (OOP)</li>
+          <p>C++ supports the four pillars of object-oriented programming:</p>
+        </ol>
+        <ul>
+          <li>
+            Encapsulation: Bundling data and methods that operate on the data in
+            a single unit (class).
+          </li>
+          <li>
+            Abstraction: Hiding complex implementation details and showing only
+            necessary functionality.
+          </li>
+          <li>
+            Inheritance: Mechanism to create a new class from an existing class
+            to promote code reuse.
+          </li>
+          <li>
+            Polymorphism: Ability to treat objects of different derived classes
+            uniformly through base class pointers or references.
+          </li>
+        </ul>
+        <h3>Features of C++</h3>
+        <ul>
+          <li>
+            Object-Oriented: C++ supports object-oriented programming (OOP)
+            principles, allowing for the creation of classes and objects. This
+            helps in organizing code and promoting reusability.
+          </li>
+          <li>
+            Rich Standard Library: C++ provides a rich set of built-in functions
+            and libraries, which can significantly reduce the development time.
+          </li>
+          <li>
+            Performance: C++ offers low-level memory manipulation, allowing
+            developers to optimize performance-critical applications.
+          </li>
+          <li>
+            Portability: C++ programs can be compiled and run on various
+            platforms without significant modifications.
+          </li>
+          <li>
+            Compatibility with C: C++ is compatible with C, allowing for the
+            integration of existing C code.
+          </li>
+        </ul>
+        <h3>Basic Syntax</h3>
+        <pre style="background-color: aqua">
+            <code>
+                #include &lt;iostream&gt;
+                    #include &lt;string&gt;
+                    using namespace std;
+                    
+                    int main() 
+                    {
+                        string name;
+                        cout << "Enter name:";
+                        getline (cin, name);
+                        cout << "Hello " << name;
+                        return 0;
+                    }
+            </code>
+         </pre>
+        <h3>Applications of C++</h3>
+        <ol>
+          <li>
+            System Software: C++ is used in developing operating systems and
+            system-level applications.
+          </li>
+          <li>
+            Game Development: Many game engines and games are written in C++ due
+            to its performance and control over system resources.
+          </li>
+          <li>
+            Embedded Systems: C++ is often used in programming embedded systems
+            for devices like smartphones, appliances, and automotive systems.
+          </li>
+        </ol>
+      </section>
+      <!-- &lt for less than and &gt for graeter than -->
+      <!-- c++ compiler -->
+      <section id="second">
+        <h2>c++ compiler</h2>
+        <iframe
+          src="https://onecompiler.com/cpp"
+          frameborder="0"
+          height="600"
+          width="100%"
+        ></iframe>
+      </section>
+      <!-- Arrays -->
+      <section id="2nd">
+        <h2>Introduction to Arrays</h2>
+        <h3>What is Arrays</h3>
+        <p>
+          In programming, arrays are data structures that store a collection of
+          elements (values), typically of the same data type, in contiguous
+          memory locations. Arrays are used to group related data together so
+          that they can be easily accessed, modified, and manipulated.
+        </p>
+        <br />
+        <img
+          src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726162247/Array-data-structure.png"
+          alt=""
+          height="300"
+          width="900"
+        />
+        <table>
+          <tr>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/2OQ46x0Zka8?list=PLQEaRBV9gAFudmlZ8smI0nasf0lyN3pp9&index=2"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j_n1W5YgN_4?list=PLQEaRBV9gAFudmlZ8smI0nasf0lyN3pp9"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/LLsIA8U3z18?list=PLQEaRBV9gAFudmlZ8smI0nasf0lyN3pp9&index=3"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/OxXS1m7afIQ?list=PLQEaRBV9gAFudmlZ8smI0nasf0lyN3pp9&index=5"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/HsrNq_14GhY?list=PLQEaRBV9gAFudmlZ8smI0nasf0lyN3pp9&index=6"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/OnrJK8DcD2M?list=PLQEaRBV9gAFudmlZ8smI0nasf0lyN3pp9&index=7"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>8</td>
+          </tr>
+        </table>
+        <h2>Characteristics of Arrays</h2>
+        <ul>
+          <li>
+            Fixed Size: The size of an array is defined when it is created and
+            cannot be changed.
+          </li>
+          <li>
+            Indexed: Each element in an array is accessed using an index, which
+            typically starts from 0.
+          </li>
+          <li>
+            Homogeneous Elements: All elements in an array must be of the same
+            data type, such as integers, floats, or strings.
+          </li>
+        </ul>
+        <h3>Types of Arrays</h3>
+        <ol>
+          <li>
+            One-Dimensional Arrays: A linear list of elements, where each
+            element can be accessed by a single index
+            <ul>
+              <li>Example: int numbers[5]; (stores 5 integers)</li>
+            </ul>
+          </li>
+          <li>
+            Multi-Dimensional Arrays: Arrays with more than one dimension,
+            commonly used for matrices and tables
+            <ul>
+              <li>Example: int matrix[3][3]; (a 3x3 matrix of integers)</li>
+            </ul>
+          </li>
+          <li>
+            Dynamic Arrays: Arrays that can change size during program
+            execution, typically implemented using data structures like lists.
+          </li>
+        </ol>
+      </section>
+      <!-- Tress -->
+      <section id="3rd">
+        <h2>Introduction to Trees</h2>
+        <p>
+          A tree is a hierarchical data structure that consists of nodes
+          connected by edges. Each tree has a single root node at the top, from
+          which all other nodes branch out. Nodes can have zero or more child
+          nodes, and each child node can further branch out into more nodes.
+          Trees are commonly used to represent hierarchical relationships, such
+          as file systems or organizational structures.
+        </p>
+        <img src="./Trees.webp" alt="" />
+        <h3>Characteristics of Trees</h3>
+        <ul>
+          <li>Root Node: The topmost node in a tree, which has no parent.</li>
+          <li>Child Node: A node that is a descendant of another node.</li>
+          <li>Parent Node: A node that has one or more child nodes.</li>
+          <li>Leaf Node: A node that has no children.</li>
+          <li>
+            Depth: The number of edges from the root node to a specific node.
+          </li>
+          <li>
+            Height: The number of edges on the longest path from a node to a
+            leaf.
+          </li>
+        </ul>
+        <h3>Types of Trees</h3>
+        <ol>
+          <li>
+            Binary Tree: Each node has at most two children, referred to as the
+            left and right children.
+          </li>
+          <li>
+            Binary Search Tree (BST): A binary tree where the left child
+            contains only nodes with values less than the parent node, and the
+            right child contains only nodes with values greater than the parent
+            node.
+          </li>
+          <li>
+            AVL Tree: A self-balancing binary search tree where the difference
+            in heights between the left and right subtrees is at most one.
+          </li>
+          <li>
+            Red-Black Tree: A balanced binary search tree with an additional
+            property that ensures the tree remains balanced during insertions
+            and deletions.
+          </li>
+          <li>
+            N-ary Tree: A tree in which a node can have at most N children.
+          </li>
+        </ol>
+        <h3>Applications of Trees</h3>
+        <ul>
+          <li>
+            Data Storage: Trees are used in databases for indexing data and
+            improving search performance.
+          </li>
+          <li>
+            File Systems: Hierarchical file systems use tree structures to
+            organize files and directories.
+          </li>
+          <li>
+            Network Routing: Trees are used in routing algorithms to manage and
+            optimize the flow of data across networks.
+          </li>
+          <li>
+            Artificial Intelligence: Trees, such as decision trees, are used in
+            AI algorithms for decision-making processes.
+          </li>
+        </ul>
+      </section>
+      <!-- Graphs -->
+      <section id="4th">
+        <h2>Introduction to Graphs</h2>
+        <p>
+          A graph is a data structure that consists of a set of vertices (or
+          nodes) and a set of edges that connect pairs of vertices. Graphs are
+          used to represent relationships or connections between various
+          entities and are fundamental in computer science for modeling complex
+          networks, such as social networks, transportation systems, and
+          communication networks.
+        </p>
+        <img src="./Graphs.webp" alt="" />
+        <h3>Characteristics of Graphs</h3>
+        <ul>
+          <li>
+            Vertices (Nodes): The fundamental units of a graph, representing
+            entities in the graph.
+          </li>
+          <li>
+            Edges: Connections between pairs of vertices, which can be directed
+            (one-way) or undirected (two-way).
+          </li>
+          <li>
+            Degree: The number of edges connected to a vertex. For directed
+            graphs, a vertex can have an in-degree (number of incoming edges)
+            and an out-degree (number of outgoing edges).
+          </li>
+          <li>
+            Path: A sequence of edges that connects a sequence of vertices
+          </li>
+          <li>
+            Cycle: A path that starts and ends at the same vertex without
+            repeating any edges.
+          </li>
+        </ul>
+        <h3>Types of Graphs</h3>
+        <ol>
+          <li>
+            Directed Graph (Digraph): A graph where the edges have a direction,
+            indicating the relationship flows from one vertex to another.
+          </li>
+          <li>
+            Undirected Graph: A graph where the edges do not have a direction,
+            indicating a two-way relationship between vertices.
+          </li>
+          <li>
+            Weighted Graph: A graph where each edge has an associated weight or
+            cost, often used to represent distances or costs in a network.
+          </li>
+          <li>
+            Unweighted Graph: A graph where all edges are treated equally,
+            without any weights.
+          </li>
+          <li>Cyclic Graph: A graph that contains at least one cycle.</li>
+          <li>
+            Acyclic Graph: A graph that does not contain any cycles, such as a
+            tree.
+          </li>
+        </ol>
+        <h3>Applications of Graphs</h3>
+        <ol>
+          <li>
+            Social Networks: Graphs are used to model relationships and
+            interactions between individuals or entities in social media
+            platforms.
+          </li>
+          <li>
+            Transportation Networks: Graphs represent roads, intersections, and
+            routes in transportation systems, helping optimize travel and
+            logistics.
+          </li>
+          <li>
+            Web Page Link Analysis: The structure of the web can be represented
+            as a graph, with web pages as vertices and hyperlinks as edges,
+            enabling search engines to analyze and rank pages.
+          </li>
+          <li>
+            Network Flow: Graphs are utilized in flow networks to model the flow
+            of resources, such as electricity or data, through a network.
+          </li>
+        </ol>
+        <h3>Tuturorial for Graph</h3>
+        <table>
+          <tr>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/gGlfzqPT-hE?list=PLQEaRBV9gAFte7vWOl3AWFABndCRCsIRQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Vtu7qgF0ksw?list=PLQEaRBV9gAFte7vWOl3AWFABndCRCsIRQ&index=3"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/bxbrUGvBCnY?list=PLQEaRBV9gAFte7vWOl3AWFABndCRCsIRQ&index=2"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/oz1EaP_Bw4s?list=PLQEaRBV9gAFte7vWOl3AWFABndCRCsIRQ&index=4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/2JgYwQ6TZ44?list=PLQEaRBV9gAFte7vWOl3AWFABndCRCsIRQ&index=5"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+            <td>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/sPlN86EpjJA?list=PLQEaRBV9gAFte7vWOl3AWFABndCRCsIRQ&index=6"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section id="5th">
+        <iframe 
+          src="../Day 7/HW.html"
+          frameborder="0"
+          height="500"
+          width="100%"
+          style="align-items: center; justify-content: center"
+        ></iframe>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;All Rights are reserved by Rohit Negi</p>
+    </footer>
+  </body>
+</html>
